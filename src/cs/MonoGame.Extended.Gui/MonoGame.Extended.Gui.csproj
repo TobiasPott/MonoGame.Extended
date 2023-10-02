@@ -15,6 +15,7 @@
 
   <PropertyGroup>
     <NoWarn>NU1701</NoWarn>
+	  <BaseOutputPath>../../../bin/</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

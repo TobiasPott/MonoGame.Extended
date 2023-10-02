@@ -21,10 +21,10 @@
     <NoWarn>NU1701</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>bin\</OutputPath>
+    <BaseOutputPath>../../../bin/</BaseOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>bin\</OutputPath>
+    <BaseOutputPath>../../../bin/</BaseOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Autofac" Version="5.2.0" />
